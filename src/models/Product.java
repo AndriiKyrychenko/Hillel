@@ -9,7 +9,7 @@ public class Product implements Income, Fiscal {
     private int quantity;
     private double price;
 
-    public final double TAX = 0.05;
+    private final double TAX = 0.05;
 
     public void setName(String name) {
         this.name = name;
@@ -23,7 +23,6 @@ public class Product implements Income, Fiscal {
         this.price = price;
     }
 
-    //GETTERS
     public String getName() {
         return name;
     }
