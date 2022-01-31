@@ -2,14 +2,15 @@ package views;
 
 import models.Product;
 import utils.Validator;
+
 import java.util.Scanner;
 
 public class SalesView {
 
-    String title;
-    String name;
-    int quantity;
-    double price;
+    public String title;
+    private String name;
+    private int quantity;
+    private double price;
 
     Scanner scanner;
 

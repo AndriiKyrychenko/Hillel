@@ -12,6 +12,5 @@ public class App {
         ProductController controller = new ProductController(model, view);
 
         controller.runApp();
-
     }
 }
