@@ -1,12 +1,9 @@
 package views;
 
-
 import models.Product;
 import utils.Validator;
-
 import java.util.Scanner;
 
-// View
 public class SalesView {
 
     String title;

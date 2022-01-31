@@ -4,12 +4,10 @@ import models.Product;
 import views.SalesView;
 import utils.Rounder;
 
-// Controller
 public class ProductController {
 
     Product model;
     SalesView view;
-
 
     public ProductController(Product model, SalesView view) {
         this.model = model;

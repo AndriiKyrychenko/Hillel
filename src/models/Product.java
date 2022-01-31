@@ -1,10 +1,7 @@
 package models;
 
-
 import base.Fiscal;
 import base.Income;
-
-// Model.
 
 public class Product implements Income, Fiscal {
 
