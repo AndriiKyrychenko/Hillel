@@ -23,7 +23,6 @@ public class Product implements Income, Fiscal {
         this.price = price;
     }
 
-    //GETTERS
     public String getName() {
         return name;
     }
