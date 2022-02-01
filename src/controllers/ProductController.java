@@ -6,8 +6,8 @@ import utils.Rounder;
 
 public class ProductController {
 
-     private Product model;
-     private SalesView view;
+    private Product model;
+    private SalesView view;
 
     public ProductController(Product model, SalesView view) {
         this.model = model;
