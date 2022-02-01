@@ -35,17 +35,18 @@ public class Validator {
     }
 
     // Валидация ввода цены
-    public static float validatePriceInput(Scanner scanner) {
-        while (!scanner.hasNextFloat()) {
+    public static double validatePriceInput(Scanner scanner) {
+        while (!scanner.hasNextDouble()) {
             String str = scanner.nextLine().trim();
             System.out.printf("\"%s\" - не число!\n", str);
             System.out.println("Введите цену!: ");
         }
-        float price = scanner.nextFloat();
+        double price = scanner.nextDouble();
+
         while (price <= 0) {
             System.out.println("Неверное значение! Введите цену: ");
             System.out.println("Значение цены товара не может быть отрицательным числом!");
-            price = scanner.nextFloat();
+            price = scanner.nextDouble();
         }
         return price;
     }
